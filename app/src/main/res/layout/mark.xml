@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawer_layout">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark"
+        tools:openDrawer="start"
+        tools:context=".Mark"
+        android:fitsSystemWindows="true"
+        >
+
+    <HorizontalScrollView
+        android:layout_below="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+  <ScrollView
+      android:layout_below="@+id/hello"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+        <TableLayout
+            android:layout_below="@+id/hello"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="clip_horizontal|center|clip_vertical"
+                    android:freezesText="false"
+                    android:text="@string/Subject"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/SubjectSize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/Mark"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/SubjectSize" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+
+                <TextView
+                    android:id="@+id/num1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/Algebra" />
+                <TextView
+                    android:id="@+id/number1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="554535" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/Algebra" />
+                <TextView
+                    android:id="@+id/number2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="554535" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/Geometry" />
+                <TextView
+                    android:id="@+id/number3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="554543545455" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/RussianLanguage" />
+                <TextView
+                    android:id="@+id/number4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="55555555555" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/SubjectSizeForMark"
+                android:textColor="@color/black"
+                android:text="@string/Literature" />
+                <TextView
+                    android:id="@+id/number5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="554545454" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/Physics" />
+                <TextView
+                    android:id="@+id/number6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="454543344555" />
+            </TableRow>
+            <TableRow
+
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/EnglishLanguage" />
+                <TextView
+                    android:id="@+id/number7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="55555" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/IT" />
+                <TextView
+                    android:id="@+id/number8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="55555555555555" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/SubjectSizeForMark"
+                android:textColor="@color/black"
+                android:text="@string/Chemistry" />
+                <TextView
+                    android:id="@+id/number9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="3353554454" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/Biology" />
+                <TextView
+                    android:id="@+id/number10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="45445455455" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/Geography" />
+                <TextView
+                    android:id="@+id/number11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="55535" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/PhysicalEducation" />
+                <TextView
+                    android:id="@+id/number12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="55555555555" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/RussianHistory" />
+                <TextView
+                    android:id="@+id/number13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="4454" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/History" />
+                <TextView
+                    android:id="@+id/number14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="535" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/Social" />
+                <TextView
+                    android:id="@+id/number15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="545355" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/Economy" />
+                <TextView
+                    android:id="@+id/number16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="543344534" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/BJD" />
+                <TextView
+                    android:id="@+id/number17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="545" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/num18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="@string/Religion" />
+                <TextView
+                    android:id="@+id/number18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSizeForMark"
+                    android:textColor="@color/black"
+                    android:text="23452" />
+            </TableRow>
+
+        </TableLayout>
+  </ScrollView>
+    </HorizontalScrollView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/hello"
+            android:layout_width="282dp"
+            android:layout_height="@dimen/TextInputLayout">
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/holo_orange_dark"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragmentMonday">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/monday1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SubjectSize"
+                    android:textColor="@color/black"
+                    android:text="@string/IT" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/monday2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSize"
+                    android:textColor="@color/black"
+                    android:text="@string/IT" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/monday3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSize"
+                    android:textColor="@color/black"
+                    android:text="@string/RussianHistory" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/monday4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSize"
+                    android:textColor="@color/black"
+                    android:text="@string/PhysicalEducation" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/monday5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSize"
+                    android:textColor="@color/black"
+                    android:text="@string/Biology" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/monday6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSize"
+                    android:textColor="@color/black"
+                    android:text="@string/Geography" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/monday7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSize"
+                    android:textColor="@color/black"
+                    android:text="@string/Geography" />
+            </TableRow>
+            <TableRow
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                >
+                <TextView
+                    android:id="@+id/monday8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/SubjectSize"
+                    android:textColor="@color/black"
+                    android:text="@string/Geography" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+</FrameLayout>

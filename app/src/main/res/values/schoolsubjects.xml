@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="History">Всеобщая история</string>
+    <string name="RussianHistory">История России</string>
+    <string name="BJD">ОБЖ</string>
+    <string name="Social">Обществознание</string>
+    <string name="RussianLanguage">Русский язык</string>
+    <string name="Literature">Литература</string>
+    <string name="EnglishLanguage">Английский язык</string>
+    <string name="Algebra">Алгебра</string>
+    <string name="Geometry">Геометрия</string>
+    <string name="IT">Информатика и ИТ</string>
+    <string name="Music">Музыка</string>
+    <string name="PhysicalEducation">Физкультура</string>
+    <string name="Chemistry">Химия</string>
+    <string name="Physics">Физика</string>
+    <string name="Biology">Биология</string>
+    <string name="Economy">Экономика</string>
+    <string name="Geography">География</string>
+    <string name="Religion">Религия</string>
+    <string name="Singing">Пение</string>
+    <string name="Psychology">Психология</string>
+    <string name="Work">Труд</string>
+    <string name="Art">Рисование</string>
+    <string name="MHK">МХК</string>
+    <string name="Subject">Предмет</string>
+    <string name="Mark">Оценки</string>
+    <string name="Cabinet">Кабинет</string>
+    <string name="Teacher">Учитель</string>
+    <dimen name="SubjectSize">35sp</dimen>
+    <dimen name="SubjectSizeForMark">20sp</dimen>
+    <dimen name="SubjectSizeForTeacher">15sp</dimen>
+</resources>

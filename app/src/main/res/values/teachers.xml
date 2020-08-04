@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="HistoryTeacher">Кузнецова Татьяна Геннадьевна</string>
+    <string name="RussianHistoryTeacher">Кузнецова Татьяна Геннадьевна</string>
+    <string name="BJDTeacher">Кузнецова Елена Владимировна</string>
+    <string name="SocialTeacher">Кузнецова Татьяна Геннадьевна</string>
+    <string name="RussianLanguageTeacher">Маляева Светлана Ивановна</string>
+    <string name="LiteratureTeacher">Маляева Светлана Ивановна</string>
+    <string name="EnglishLanguageTeacher">Балашова Наталья Владимировна</string>
+    <string name="AlgebraTeacher">Буланова Вероника Юрьевна</string>
+    <string name="GeometryTeacher">Буланова Вероника Юрьевна</string>
+    <string name="ITTeacher">Сесорова Лариса Николаевна</string>
+    <string name="MusicTeacher">Булатова Елена Николаевна </string>
+    <string name="PhysicalEducationTeacher">Бажанов Алексей Валерьевич</string>
+    <string name="ChemistryTeacher">Бубеева Татьяна Олеговна</string>
+    <string name="PhysicsTeacher">Дегтерева Нина Константиновна</string>
+    <string name="BiologyTeacher">Кокаева Светлана Ильинична</string>
+    <string name="EconomyTeacher">Кузнецова Татьяна Геннадьевна</string>
+    <string name="GeographyTeacher">Шилова Ольга Владимировна</string>
+    <string name="ArtTeacher">Агафонова Надежда Сергеевна</string>
+    <string name="MHKTeacher">Агафонова Надежда Сергеевна</string>
+    <string name="ReligionTeacher">Агафонова Надежда Сергеевна</string>
+    <string name="SingingTeacher">Булатова Елена Николаевна </string>
+    <string name="PsychologyTeacher">Водопьянова Елена Валерьевна</string>
+    <string name="WorkTeacher">Чумаченко Владимир Геннадьевич</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Профиль" />
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/ic_timetable"
+            android:title="Расписание" />
+        <item
+            android:id="@+id/nav_mark"
+            android:icon="@drawable/ic_mark"
+            android:title="Оценки" />
+        <item
+            android:id="@+id/nav_teacher"
+            android:icon="@drawable/ic_teacher"
+            android:title="Учителя" />
+    </group>
+    <item android:title="Дополнительно">
+        <menu>
+            <item
+                android:id="@+id/nav_exprofile"
+                android:icon="@drawable/ic_exprofile"
+                android:title="Выйти из профиля" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit"
+                android:title="Выйти" />
+        </menu>
+    </item>
+</menu>
